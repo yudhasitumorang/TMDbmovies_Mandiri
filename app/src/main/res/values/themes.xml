@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.TMDBMoviesMandiri" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blue_500</item>
+        <item name="colorPrimaryVariant">@color/blue_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="toolbarStyle">@style/Widget.TMDBMoviesMandiri.Toolbar</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.TMDBMoviesMandiri.ActionBar</item>
+
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Widget.TMDBMoviesMandiri.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="navigationIconTint">@color/white</item>
+        <item name="titleTextColor">@color/white</item>
+    </style>
+
+    <style name="ThemeOverlay.TMDBMoviesMandiri.ActionBar" parent="ThemeOverlay.Material3.ActionBar">
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+</resources>
